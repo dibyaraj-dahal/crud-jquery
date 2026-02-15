@@ -1,0 +1,53 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../images/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #222;
+}
+
+.section-center {
+  margin: 0 auto;
+  margin-top: 8rem;
+  max-width: 30rem;
+  background: #fff;
+  border-radius: 0.25rem;
+  padding: 2rem;
+  position: relative;
+}
+
+.item-count {
+  font-size: 0.6em;
+  color: #888;
+  margin-left: 0.5rem;
+  font-weight: 300;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.qty-display {
+  min-width: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.qty-increase-btn,
+.qty-decrease-btn {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.9rem;
+  min-width: 2rem;
+}
