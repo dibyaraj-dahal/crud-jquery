@@ -16,7 +16,7 @@ form h2 {
   border-radius: 0;
   border-top-left-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
-  border: 1px solid #ddd;
+  border: 1px solid #f4aaaa;
 }
 
 .form-input::placeholder {
@@ -25,7 +25,7 @@ form h2 {
 
 .form-control .btn {
   cursor: pointer;
-  color: #fff;
+  color: #90c7e5;
   background: #06b6d4;
   border: transparent;
   border-radius: 0;
